@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ffmpeg/core": "^0.9.0",
+    "@ffmpeg/ffmpeg": "^0.9.8",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0"
