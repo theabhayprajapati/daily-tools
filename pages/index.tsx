@@ -104,8 +104,7 @@ const Home: NextPage = () => {
       <ToastContainer />
       <HeaderCam />
       <Head>
-        <t>Daily Tools</t
-        itle>
+        <title>Daily Tools</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* space of mt 10 */}
