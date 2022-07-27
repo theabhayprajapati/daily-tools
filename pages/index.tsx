@@ -104,11 +104,22 @@ const Home: NextPage = () => {
       <ToastContainer />
       <HeaderCam />
       <Head>
-        <title>Daily Tools</title>
+        <t>Daily Tools</t
+        itle>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* space of mt 10 */}
-      <HorizontalSpacer n={40} />
+      <HorizontalSpacer n={20} />
+      {/* center veritcall and horizonaltally */}
+      <div className="flex flex-col items-center justify-center">
+        <h1
+          className="font-bold text-6xl text-center"
+        >
+          Convert your video to GIF
+        </h1>
+      </div>
+      {/* space of mt 10 */}
+      <HorizontalSpacer n={20} />
       <main>
         {/* make two division left and right with borders */}
         <div className="flex flex-wrap">
