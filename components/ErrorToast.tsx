@@ -3,7 +3,9 @@ import { Button, showToast } from "@cred/neopop-web/lib/components";
 const ErrorToast = () => {
     const showToastNotif = () => {
         console.log('show toast');
-        showToast('Sample toast message', { type: 'error', autoCloseTime: '5000' });
+        // @ts-ignore
+        // @ts-nocheck
+        showToast('Sample toast message', { type: 'error', autoCloseTime: 5000 });
     };
     return (
 

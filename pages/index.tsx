@@ -28,7 +28,7 @@ const Home: NextPage = () => {
     try {
       const link = document.createElement("a");
       // @ts-ignore
-      // @ts-nocheck
+      // alkdjfal;kdsjal;kj
       link.href = gif;
       link.download = "out.gif";
       link.click();
