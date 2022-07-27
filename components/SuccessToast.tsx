@@ -3,6 +3,8 @@ import { Button, showToast } from '@cred/neopop-web/lib/components';
 const SuccessToast = () => {
     const showToastNotif = () => {
         console.log('show toast');
+        // @ts-ignore
+        // @ts-nocheck
         showToast('Sample toast message', { type: 'success', autoCloseTime: '5000' });
     };
 
