@@ -5,6 +5,7 @@ const ffmpeg = createFFmpeg({ log: true });
 
 (async () => {
     await ffmpeg.load();
+    // chck of file exists
     ffmpeg.FS('writeFile', '/video.mp4', await fetchFile('./video.mp4'));
     //   await ffmpeg.run('-i', './video.mp4', 'test.mp4');
     //   await fs.promises.writeFile('./test.mp4', ffmpeg.FS('readFile', 'test.mp4'));
